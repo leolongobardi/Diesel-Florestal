@@ -1,0 +1,1 @@
+{"name": "diesel-florestal", "private": true, "version": "1.0.0", "scripts": {"build": "node --check public/app.js", "deploy": "npx wrangler deploy"}}
