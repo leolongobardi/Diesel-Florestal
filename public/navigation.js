@@ -4,9 +4,9 @@ const dieselViews={
  imports:['Gerenciar importações','BASES COMPARTILHADAS','Acompanhe os arquivos importados e gerencie a participação de cada base nas análises.'],
  drivers:['Análise por motorista','EFICIÊNCIA NA CONDUÇÃO','Compare consumo, utilização e comportamento de condução por motorista.'],
  cadastro:['Cadastro Telemetria','BASE DE REFERÊNCIA','Relacione placas, equipamentos e tipos de operação às bases de consumo.'],
- parameters:['Parametrização','CONTROLE DA ANÁLISE','Escolha os operadores e as placas que participam dos indicadores e rankings.'],
+ parameters:['Parametrização','CONTROLE DA ANÁLISE','Escolha os empresas e as placas que participam dos indicadores e rankings.'],
  daily:['Histórico diário','EVOLUÇÃO DO CONSUMO','Acompanhe dia a dia o rendimento, as distâncias CAN e GPS e os litros consumidos.'],
- operators:['Operadores','DESEMPENHO POR OPERADOR','Compare a movimentação e o consumo ponderado de cada operador.'],
+ operators:['Empresas','DESEMPENHO POR EMPRESA','Compare a movimentação e o consumo ponderado de cada empresa.'],
  brands:['Marcas e modelos','PERFIL DA FROTA','Compare o rendimento das marcas e dos modelos no período selecionado.'],
  fleet:['Placas','DESEMPENHO DOS VEÍCULOS','Explore os destaques da frota e os dados de telemetria de cada placa.'],
  quality:['Qualidade dos dados','CONFIABILIDADE DA ANÁLISE','Confira registros válidos, inconsistências e as regras de cálculo do consumo.']
