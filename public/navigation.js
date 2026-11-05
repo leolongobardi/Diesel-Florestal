@@ -34,6 +34,7 @@ function navigateView(route,{historyMode='push',focus=false,scroll=true}={}){
  if(route==='drivers')renderDrivers();
  // Valid hash routes take precedence over legacy import/login query shortcuts.
  if(historyMode!=='none'&&location.hash!=='#'+route){const url=new URL(location.href);url.hash=route;history[historyMode==='replace'?'replaceState':'pushState'](null,'',url);}
+ if(route==='overview'&&typeof renderPositions==='function')renderPositions();
  if(scroll)window.scrollTo({top:0,behavior:'instant'});
  if(focus)$('pageTitle').focus({preventScroll:true});
 }
