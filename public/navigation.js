@@ -27,6 +27,7 @@ function navigateView(route,{historyMode='push',focus=false,scroll=true}={}){
  const [title,eyebrow,description]=dieselViews[route];
  $('pageTitle').textContent=title;$('pageEyebrow').textContent=eyebrow;$('pageDescription').textContent=description;
  document.title=title+' · Diesel Florestal';
+ $('qualityDetails').open=route==='quality';
  if(route==='parameters')renderParams();
  if(route==='imports')renderImports();
  if(route==='cadastro')renderCadastro();
